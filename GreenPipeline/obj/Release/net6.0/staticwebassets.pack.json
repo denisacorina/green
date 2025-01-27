@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\DENI\\source\\repos\\GreenPipelineDemo\\GreenPipeline\\bin\\Release\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\DENI\\source\\repos\\GreenPipelineDemo\\GreenPipeline\\obj\\Release\\net6.0\\scopedcss\\bundle\\GreenPipeline.styles.css",
+      "PackagePath": "staticwebassets\\GreenPipeline.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\DENI\\source\\repos\\GreenPipelineDemo\\GreenPipeline\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\DENI\\source\\repos\\GreenPipelineDemo\\GreenPipeline\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DENI\\source\\repos\\GreenPipelineDemo\\GreenPipeline\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DENI\\source\\repos\\GreenPipelineDemo\\GreenPipeline\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\DENI\\source\\repos\\GreenPipelineDemo\\GreenPipeline\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\DENI\\source\\repos\\GreenPipelineDemo\\GreenPipeline\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\DENI\\source\\repos\\GreenPipelineDemo\\GreenPipeline\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.GreenPipeline.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.GreenPipeline.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.GreenPipeline.props",
+      "PackagePath": "build\\GreenPipeline.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.GreenPipeline.props",
+      "PackagePath": "buildMultiTargeting\\GreenPipeline.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.GreenPipeline.props",
+      "PackagePath": "buildTransitive\\GreenPipeline.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
