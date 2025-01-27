@@ -1,0 +1,37 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  solution: '**/*.sln'
+  buildConfiguration: 'Release'
+
+steps:
+# Instalează versiunea necesară de .NET SDK
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '6.x' # Schimbă dacă folosești .NET 7 sau 8
+
+# Restorează dependințele
+- script: |
+    dotnet restore $(solution)
+  displayName: 'Restore dependencies'
+
+# Build pentru Blazor WebAssembly
+- script: |
+    dotnet build $(solution) --configuration $(buildConfiguration)
+  displayName: 'Build Blazor WASM'
+
+# Publică aplicația în directorul de artefacte
+- script: |
+    dotnet publish $(solution) --configuration $(buildConfiguration) -o $(Build.ArtifactStagingDirectory)
+  displayName: 'Publish Blazor WASM'
+
+# Publică artefactele pentru a fi utilizate în pașii următori
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathToPublish: '$(Build.ArtifactStagingDirectory)'
+    artifactName: 'drop'
